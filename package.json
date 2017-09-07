@@ -1,0 +1,38 @@
+{
+  "name": "dom-elementals",
+  "version": "1.0.0",
+  "description": "Easy DOM creation, and identity",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "npm run build && cd test && phantomjs run.js",
+    "build": "ebam"
+  },
+  "ebam": {
+    "entry": "src/index.js",
+    "test": {
+      "src": "test/src.js",
+      "dest": "test/code.js"
+    },
+    "transforms": {
+      "dangerousTaggedTemplateString": true
+    }
+  },
+  "keywords": [
+    "DOM",
+    "creation",
+    "manipulation",
+    "string"
+  ],
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io/)",
+  "license": "MIT",
+  "jsnext:main": "dist/bundle.es.js",
+  "module": "dist/bundle.es.js",
+  "dependencies": {
+    "array-from": "^2.1.1",
+    "camelcase": "^4.1.0",
+    "decamelize": "^1.2.0",
+    "is-array-like": "^1.1.2",
+    "is-dom": "^1.0.9",
+    "isobject": "^3.0.1"
+  }
+}
