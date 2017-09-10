@@ -1,6 +1,6 @@
 {
   "name": "dom-elementals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy DOM creation, and identity",
   "main": "dist/bundle.js",
   "scripts": {
