@@ -145,3 +145,8 @@ setAttributes()
 ---------
 
 `setAttributes(element, object)` is used to set all the attributes of a given `object` on to the `element`.
+
+isElement()
+---------
+
+`isElement(value)` returns true if `value` is an element.

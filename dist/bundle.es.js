@@ -279,5 +279,5 @@ function appendChildren(el, children){
     return el;
 }
 
-export { toHTML, toElement, convert, objectToDOM };
+export { toHTML, arrayFrom, setAttributes, isElement, toElement, convert, objectToDOM };
 //# sourceMappingURL=bundle.es.js.map

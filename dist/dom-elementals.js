@@ -656,6 +656,9 @@ function appendChildren(el, children){
 }
 
 exports.toHTML = toHTML;
+exports.arrayFrom = arrayFrom;
+exports.setAttributes = setAttributes;
+exports.isElement = isElement;
 exports.toElement = toElement;
 exports.convert = convert;
 exports.objectToDOM = objectToDOM;

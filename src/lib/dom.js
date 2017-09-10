@@ -12,7 +12,7 @@ import {
     isObject, isDocumentFragment, isElement, isElemental
 } from './is.js';
 
-export { toHTML, arrayFrom, setAttributes };
+export { toHTML, arrayFrom, setAttributes, isElement };
 
 export function toElement(v, ...values){
 
